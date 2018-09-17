@@ -4,7 +4,7 @@ The VPS you plan to install your masternode on needs to have at least 1GB of RAM
 
 ## Funding your Masternode
 
-* First, we will do the initial collateral TX and send exactly 20000 BWK to one of our addresses. To keep things sorted in case we setup more masternodes we will label the addresses we use.
+* First, we will do the initial collateral TX and send exactly 20000 ION to one of our addresses. To keep things sorted in case we setup more masternodes we will label the addresses we use.
 
   - Open your ION wallet and switch to the "Receive" tab.
 
