@@ -4,9 +4,9 @@ The VPS you plan to install your masternode on needs to have at least 1GB of RAM
 
 ## Funding your Masternode
 
-* First, we will do the initial collateral TX and send exactly 5000 BWK to one of our addresses. To keep things sorted in case we setup more masternodes we will label the addresses we use.
+* First, we will do the initial collateral TX and send exactly 20000 BWK to one of our addresses. To keep things sorted in case we setup more masternodes we will label the addresses we use.
 
-  - Open your BWK wallet and switch to the "Receive" tab.
+  - Open your ION wallet and switch to the "Receive" tab.
 
   - Click into the label field and create a label, I will use MN1
 
@@ -14,9 +14,9 @@ The VPS you plan to install your masternode on needs to have at least 1GB of RAM
 
   - The generated address will now be labelled as MN1 If you want to setup more masternodes just repeat the steps so you end up with several addresses for the total number of nodes you wish to setup. Example: For 10 nodes you will need 10 addresses, label them all.
 
-  - Once all addresses are created send 5000 BWK each to them. Ensure that you send exactly 5000 BWK and do it in a single transaction. You can double check where the coins are coming from by checking it via coin control usually, that's not an issue.
+  - Once all addresses are created send 20000 ION each to them. Ensure that you send exactly 20000 ION and do it in a single transaction. You can double check where the coins are coming from by checking it via coin control usually, that's not an issue.
 
-As soon as all 5k transactions are done, we will wait for 15 confirmations. You can check this in your wallet or use the explorer. It should take around 30 minutes if all transaction have 15 confirmations
+As soon as all the 20k transactions are done, we will wait for 15 confirmations. You can check this in your wallet or use the explorer. It should take around 30 minutes if all transaction have 15 confirmations
 
 ## Installation & Setting up your Server
 
@@ -40,9 +40,9 @@ Copy both the key and output information to a text file.
 
 Close your wallet and open the Bulwark Appdata folder. Its location depends on your OS.
 
-* **Windows:** Press Windows+R and write %appdata% - there, open the folder Bulwark.
-* **macOS:** Press Command+Space to open Spotlight, write ~/Library/Application Support/Bulwark and press Enter.
-* **Linux:** Open ~/.bulwark/
+* **Windows:** Press Windows+R and write %appdata% - there, open the folder Ioncoin.
+* **macOS:** Press Command+Space to open Spotlight, write ~/Library/Application Support/Ioncoin and press Enter.
+* **Linux:** Open ~/.ioncoin/
 
 In your appdata folder, open masternode.conf with a text editor and add a new line in this format to the bottom of the file:
 
